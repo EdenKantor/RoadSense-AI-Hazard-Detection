@@ -4,7 +4,7 @@ RoadSenseAI is a collaborative system for detecting potholes from road trip vide
 
 **Project Code:** 26-1-D-9  
 **Authors:** Eden Kantor, Noa Sivan  
-**Repository Purpose:** This repo hosts the **Project Book** and supporting documentation/artifacts for academic submission.
+**Repository Purpose:** This repo hosts the **Project Book** for academic submission.
 
 ---
 
