@@ -1,0 +1,232 @@
+/**
+ * Styles for Leaflet map containers, popups, clusters, and overlay panels.
+ *
+ * Uses BEM-ish prefixes: .map-* for the host shell, .mp-* for popup card
+ * internals, and .shared-public-* for the public-facing fullscreen variant.
+ */
+
+/* ===================================================================
+   MAP — Full height container
+   =================================================================== */
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+.leaflet-container.map-container {
+  width: 100%;
+  height: 100%;
+}
+
+.map-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* ===================================================================
+   MAP OVERLAY SIDEBAR — floating filter panel on the map page
+   =================================================================== */
+
+.map-overlay-sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18rem;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border-radius: 0 0 0.75rem 0;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.08);
+  z-index: 10;
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* ===================================================================
+   UI CLEANUP PASS - MAP + ICON FIDELITY
+   =================================================================== */
+
+.interactive-map-shell {
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  height: 620px;
+  min-height: 620px;
+}
+
+.interactive-map-shell .map-container {
+  height: 100%;
+  min-height: 0;
+  border-radius: 0;
+}
+
+.shared-public-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+  margin-bottom: 0.9rem;
+}
+
+.shared-public-controls-single {
+  grid-template-columns: minmax(260px, 420px);
+}
+
+.shared-public-map-card {
+  border: 1px solid var(--border-color);
+  border-radius: 0.8rem;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.08);
+  height: 700px;
+}
+
+.shared-public-map-card .map-container {
+  height: 100%;
+  min-height: 0;
+  border-radius: 0;
+}
+
+.map-popup-card {
+  width: 280px;
+  font-size: 0.8rem;
+  color: var(--slate-700);
+}
+
+/* Header */
+.mp-header {
+  display: flex; align-items: center; gap: 0.4rem;
+  margin-bottom: 0.5rem;
+  font-family: "Inter", -apple-system, sans-serif;
+}
+.mp-header strong {
+  font-size: 1.02rem; font-weight: 800; color: var(--slate-900);
+  letter-spacing: -0.01em;
+}
+.mp-emoji { font-size: 1rem; line-height: 1; flex-shrink: 0; }
+
+/* Severity + Status badges */
+.mp-badges { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.55rem; }
+.mp-badge {
+  display: inline-flex; align-items: center;
+  padding: 0.25rem 0.7rem; border-radius: 999px;
+  font-size: 0.7rem; font-weight: 700;
+  letter-spacing: 0.02em;
+  font-family: "Inter", -apple-system, sans-serif;
+}
+.mp-sev-high { background: #fee2e2; color: #b91c1c; }
+.mp-sev-medium { background: #fef3c7; color: #b45309; }
+.mp-sev-low { background: #dbeafe; color: #1d4ed8; }
+.mp-sev-unknown { background: #f1f5f9; color: #475569; }
+
+.mp-status-reported, .mp-status-pending { background: #475569; color: #fff; }
+.mp-status-underreview, .mp-status-inprogress, .mp-status-scheduled { background: #ea580c; color: #fff; }
+.mp-status-resolved, .mp-status-closed { background: #16a34a; color: #fff; }
+
+.mp-divider {
+  height: 1px; background: #e2e8f0;
+  margin: 0.55rem 0 0.55rem;
+}
+
+/* Info rows — inline label + value */
+.mp-row {
+  display: flex; align-items: center; gap: 0.4rem;
+  margin-bottom: 0.4rem;
+  flex-wrap: wrap;
+}
+.mp-label {
+  font-weight: 700; color: var(--slate-900); font-size: 0.8rem;
+  flex-shrink: 0;
+}
+.mp-value {
+  color: var(--slate-700); font-size: 0.78rem; font-weight: 500;
+}
+.mp-sub-row {
+  padding-left: 1.5rem;
+  color: var(--text-muted); font-size: 0.7rem;
+  margin-top: -0.2rem; margin-bottom: 0.4rem;
+}
+
+.mp-count-pill {
+  display: inline-block; padding: 0.15rem 0.55rem;
+  background: #fee2e2; color: #b91c1c;
+  border-radius: 6px; font-size: 0.72rem; font-weight: 600;
+}
+
+/* Image at the bottom */
+.map-popup-thumb {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  border: 1px solid var(--slate-200);
+  margin-top: 0.45rem;
+  display: block;
+}
+
+/* Dark mode */
+[data-theme="dark"] .map-popup-card { color: #cbd5e1; }
+[data-theme="dark"] .mp-header strong { color: #f1f5f9; }
+[data-theme="dark"] .mp-label { color: #f1f5f9; }
+[data-theme="dark"] .mp-value { color: #cbd5e1; }
+[data-theme="dark"] .mp-sub { color: #94a3b8; }
+[data-theme="dark"] .mp-divider { background: #334155; }
+[data-theme="dark"] .mp-sev-high { background: rgba(220,38,38,0.2); color: #fca5a5; }
+[data-theme="dark"] .mp-sev-medium { background: rgba(251,191,36,0.25); color: #fde68a; }
+[data-theme="dark"] .mp-sev-low { background: rgba(59,130,246,0.2); color: #93c5fd; }
+[data-theme="dark"] .mp-sev-unknown { background: rgba(148,163,184,0.2); color: #cbd5e1; }
+[data-theme="dark"] .mp-count-pill { background: rgba(220,38,38,0.15); color: #fca5a5; }
+[data-theme="dark"] .map-popup-thumb { border-color: #334155; }
+[data-theme="dark"] .map-popup-thumb-placeholder { border-color: #334155; color: #64748b; }
+
+/* Popup container in dark mode */
+[data-theme="dark"] .leaflet-popup-content-wrapper { background: #1e293b; color: #cbd5e1; }
+[data-theme="dark"] .leaflet-popup-tip { background: #1e293b; }
+[data-theme="dark"] .leaflet-popup-close-button { color: #94a3b8; }
+[data-theme="dark"] .leaflet-popup-close-button:hover { color: #f1f5f9; }
+
+/* Responsive */
+@media (max-width: 480px) {
+  .map-popup-card { width: 220px; }
+  .map-popup-thumb { height: 110px; }
+}
+
+.map-cluster-shell {
+  background: transparent;
+  border: none;
+}
+
+.map-cluster-badge {
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #2563eb, #4338ca);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.82rem;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 5px 14px rgba(37, 99, 235, 0.38);
+}
+
+.public-map-fullscreen {
+  position: relative;
+  height: 100vh;
+}
+
+.public-map-fullscreen .map-container {
+  height: 100%;
+  min-height: 0;
+}

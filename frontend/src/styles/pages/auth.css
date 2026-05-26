@@ -1,0 +1,170 @@
+/**
+ * Styles for authentication pages (login + registration).
+ *
+ * Covers the full-page login card (.login-*) and the multi-role
+ * registration flow (.register-*). Both render without the app
+ * sidebar/topbar chrome.
+ */
+
+/* ===================================================================
+   LOGIN PAGE — Dark blue bg, centered card (image16)
+   Renders full-page, no sidebar
+   =================================================================== */
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0a3d2f, #0c4a40, #0f1f2e, #0f172a);
+  padding: 2rem;
+}
+
+.login-card {
+  background: white;
+  border-radius: 0.75rem;
+  width: 100%;
+  max-width: 28rem;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.login-card-body {
+  padding: 2rem;
+}
+
+.login-back {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+}
+
+.login-back:hover {
+  color: #059669;
+  text-decoration: none;
+}
+
+.login-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  background: #ecfdf5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
+  font-size: 1.5rem;
+}
+
+.login-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--text-main);
+  margin-bottom: 0.25rem;
+}
+
+.login-subtitle {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+
+.login-footer {
+  text-align: center;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* ===================================================================
+   REGISTRATION PAGES
+   =================================================================== */
+
+.register-wrapper {
+  text-align: center;
+  width: 100%;
+  max-width: 36rem;
+}
+
+.register-heading {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.25rem;
+}
+
+.register-subheading {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.register-home-link {
+  position: fixed;
+  top: 1.5rem;
+  left: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  z-index: 10;
+}
+
+.register-home-link::before {
+  content: "\2190  ";
+}
+
+.register-home-link:hover {
+  color: white;
+}
+
+.register-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.register-checkbox-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.register-checkbox-row input[type="checkbox"] {
+  margin-top: 0.15rem;
+  flex-shrink: 0;
+}
+
+.register-btn-row {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.register-footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 1.25rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.register-footer-links a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+
+.register-footer-links a:hover {
+  color: white;
+  text-decoration: underline;
+}

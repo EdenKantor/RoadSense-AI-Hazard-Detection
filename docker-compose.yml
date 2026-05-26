@@ -1,0 +1,53 @@
+# ── RoadSenseAI — Infrastructure (Redis + MongoDB) ──────────────────────────
+# Hybrid setup: Redis + MongoDB run in Docker Compose.
+# Backend, worker, and frontend run native on the host (Windows).
+#
+# Usage:
+#   docker compose up -d     # start both services
+#   docker compose ps        # see status + healthcheck
+#   docker compose down      # stop (volumes persist)
+#   docker compose down -v   # stop AND wipe data (⚠ destructive)
+
+services:
+  redis:
+    image: redis:7.4-alpine
+    container_name: roadsense-redis
+    restart: unless-stopped
+    # Host port 6380 matches backend/.env REDIS_URL.
+    ports:
+      - "6380:6379"
+    volumes:
+      - redis_data:/data
+    # `appendonly yes` enables persistence to the named volume so queued jobs survive a restart.
+    command: ["redis-server", "--appendonly", "yes"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 2s
+      retries: 10
+      start_period: 2s
+
+  mongodb:
+    image: mongo:7.0
+    container_name: roadsense-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - mongo_config:/data/configdb
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+
+# Named volumes — survive `docker compose down`; only wiped by `docker compose down -v`.
+volumes:
+  redis_data:
+    name: roadsense_redis_data
+  mongo_data:
+    name: roadsense_mongo_data
+  mongo_config:
+    name: roadsense_mongo_config

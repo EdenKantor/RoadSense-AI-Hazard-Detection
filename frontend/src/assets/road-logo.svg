@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none">
+  <rect width="56" height="56" rx="14" fill="#1e3a8a"/>
+  <!-- Road surface -->
+  <path d="M10 56 L22 0 L34 0 L46 56" fill="#334155"/>
+  <!-- Lane markings (dashed white lines) -->
+  <rect x="26.5" y="4" width="3" height="8" rx="1" fill="#fff" opacity="0.9"/>
+  <rect x="26.5" y="16" width="3" height="8" rx="1" fill="#fff" opacity="0.9"/>
+  <rect x="26.5" y="28" width="3" height="8" rx="1" fill="#fff" opacity="0.9"/>
+  <rect x="26.5" y="40" width="3" height="8" rx="1" fill="#fff" opacity="0.9"/>
+  <!-- Road edges -->
+  <path d="M10 56 L22 0" stroke="#94a3b8" stroke-width="0.5" opacity="0.4"/>
+  <path d="M46 56 L34 0" stroke="#94a3b8" stroke-width="0.5" opacity="0.4"/>
+</svg>

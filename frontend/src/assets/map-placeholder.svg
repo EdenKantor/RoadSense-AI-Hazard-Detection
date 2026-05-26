@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" fill="none">
+  <!-- Base: warm cream/beige like a real map tile -->
+  <rect width="240" height="200" fill="#f2ede4"/>
+
+  <!-- Building blocks (dark beige rectangles) -->
+  <rect x="10" y="10" width="45" height="30" rx="2" fill="#e5ddd0"/>
+  <rect x="10" y="50" width="30" height="25" rx="2" fill="#e5ddd0"/>
+  <rect x="65" y="10" width="35" height="20" rx="2" fill="#e5ddd0"/>
+  <rect x="65" y="40" width="25" height="35" rx="2" fill="#e5ddd0"/>
+  <rect x="110" y="10" width="50" height="28" rx="2" fill="#e5ddd0"/>
+  <rect x="110" y="48" width="35" height="22" rx="2" fill="#e5ddd0"/>
+  <rect x="170" y="10" width="60" height="35" rx="2" fill="#e5ddd0"/>
+  <rect x="170" y="55" width="40" height="25" rx="2" fill="#e5ddd0"/>
+  <rect x="10" y="90" width="40" height="30" rx="2" fill="#e5ddd0"/>
+  <rect x="10" y="130" width="55" height="25" rx="2" fill="#e5ddd0"/>
+  <rect x="10" y="165" width="35" height="25" rx="2" fill="#e5ddd0"/>
+  <rect x="75" y="90" width="30" height="40" rx="2" fill="#e5ddd0"/>
+  <rect x="75" y="140" width="45" height="28" rx="2" fill="#e5ddd0"/>
+  <rect x="75" y="175" width="30" height="20" rx="2" fill="#e5ddd0"/>
+  <rect x="130" y="85" width="40" height="35" rx="2" fill="#e5ddd0"/>
+  <rect x="130" y="130" width="50" height="30" rx="2" fill="#e5ddd0"/>
+  <rect x="130" y="170" width="35" height="25" rx="2" fill="#e5ddd0"/>
+  <rect x="190" y="90" width="40" height="30" rx="2" fill="#e5ddd0"/>
+  <rect x="190" y="130" width="45" height="25" rx="2" fill="#e5ddd0"/>
+  <rect x="190" y="165" width="40" height="30" rx="2" fill="#e5ddd0"/>
+
+  <!-- Green park areas -->
+  <rect x="155" y="48" width="12" height="30" rx="3" fill="#c8dcc0"/>
+  <rect x="55" y="130" width="15" height="40" rx="3" fill="#c8dcc0"/>
+
+  <!-- Road grid (gray lines of varying widths) -->
+  <!-- Horizontal roads -->
+  <rect x="0" y="42" width="240" height="5" fill="#d6d0c6"/>
+  <rect x="0" y="80" width="240" height="7" fill="#cdc7bc"/>
+  <rect x="0" y="122" width="240" height="5" fill="#d6d0c6"/>
+  <rect x="0" y="160" width="240" height="6" fill="#cdc7bc"/>
+  <!-- Vertical roads -->
+  <rect x="57" y="0" width="5" height="200" fill="#d6d0c6"/>
+  <rect x="105" y="0" width="6" height="200" fill="#cdc7bc"/>
+  <rect x="165" y="0" width="5" height="200" fill="#d6d0c6"/>
+  <rect x="218" y="0" width="4" height="200" fill="#d6d0c6"/>
+
+  <!-- Orange route highlight -->
+  <path d="M30 200 L30 82 L60 82 L60 44 L108 44 L108 82 L168 82 L168 44 L220 44 L220 0" stroke="#f59e0b" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+
+  <!-- Red map pin marker -->
+  <g transform="translate(108, 55)">
+    <!-- Pin shadow -->
+    <ellipse cx="0" cy="22" rx="8" ry="3" fill="rgba(0,0,0,0.15)"/>
+    <!-- Pin body (teardrop) -->
+    <path d="M0 -18 C-11 -18 -16 -9 -16 -2 C-16 8 0 22 0 22 C0 22 16 8 16 -2 C16 -9 11 -18 0 -18Z" fill="#ef4444"/>
+    <!-- Pin inner circle -->
+    <circle cx="0" cy="-4" r="6" fill="#fff"/>
+    <!-- Pin center dot -->
+    <circle cx="0" cy="-4" r="2.5" fill="#ef4444"/>
+  </g>
+</svg>

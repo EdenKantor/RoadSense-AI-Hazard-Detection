@@ -1,0 +1,47 @@
+<gpx version="1.1" creator="ChatGPT - RoadSenseAI Demo" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Haifa - Ben Gurion Blvd 8s</name>
+    <trkseg>
+      <trkpt lat="32.823247" lon="34.992875">
+        <time>2026-05-11T12:01:00Z</time>
+        <speed>9.5</speed>
+        <ele>32.0</ele>
+      </trkpt>
+      <trkpt lat="32.823158" lon="34.992820">
+        <time>2026-05-11T12:01:01Z</time>
+        <speed>9.6</speed>
+        <ele>32.0</ele>
+      </trkpt>
+      <trkpt lat="32.823069" lon="34.992764">
+        <time>2026-05-11T12:01:02Z</time>
+        <speed>10.1</speed>
+        <ele>32.0</ele>
+      </trkpt>
+      <trkpt lat="32.822981" lon="34.992709">
+        <time>2026-05-11T12:01:03Z</time>
+        <speed>10.8</speed>
+        <ele>32.1</ele>
+      </trkpt>
+      <trkpt lat="32.822892" lon="34.992654">
+        <time>2026-05-11T12:01:04Z</time>
+        <speed>11.5</speed>
+        <ele>32.1</ele>
+      </trkpt>
+      <trkpt lat="32.822803" lon="34.992599">
+        <time>2026-05-11T12:01:05Z</time>
+        <speed>12.2</speed>
+        <ele>32.1</ele>
+      </trkpt>
+      <trkpt lat="32.822714" lon="34.992544">
+        <time>2026-05-11T12:01:06Z</time>
+        <speed>12.6</speed>
+        <ele>32.1</ele>
+      </trkpt>
+      <trkpt lat="32.822625" lon="34.992489">
+        <time>2026-05-11T12:01:07Z</time>
+        <speed>12.8</speed>
+        <ele>32.1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

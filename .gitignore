@@ -24,6 +24,10 @@ worker/.env
 node_modules/
 frontend/dist/
 
+# Playwright / generic test-results (auto-regenerated on every run)
+frontend/test-results/
+**/test-results/
+
 # Editor / agent local config — not for sharing
 .vscode/
 .claude/

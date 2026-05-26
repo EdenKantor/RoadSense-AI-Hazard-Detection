@@ -1,0 +1,162 @@
+<gpx version="1.1" creator="ChatGPT - RoadSenseAI Demo" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Karmiel - Sderot Nesi'ei Israel 31s</name>
+    <trkseg>
+      <trkpt lat="32.915181" lon="35.303207">
+        <time>2026-05-11T12:04:00Z</time>
+        <speed>8.5</speed>
+        <ele>260.0</ele>
+      </trkpt>
+      <trkpt lat="32.915124" lon="35.303124">
+        <time>2026-05-11T12:04:01Z</time>
+        <speed>8.5</speed>
+        <ele>260.0</ele>
+      </trkpt>
+      <trkpt lat="32.915067" lon="35.303042">
+        <time>2026-05-11T12:04:02Z</time>
+        <speed>8.5</speed>
+        <ele>260.0</ele>
+      </trkpt>
+      <trkpt lat="32.915009" lon="35.302959">
+        <time>2026-05-11T12:04:03Z</time>
+        <speed>8.6</speed>
+        <ele>260.1</ele>
+      </trkpt>
+      <trkpt lat="32.914952" lon="35.302876">
+        <time>2026-05-11T12:04:04Z</time>
+        <speed>8.6</speed>
+        <ele>260.1</ele>
+      </trkpt>
+      <trkpt lat="32.914895" lon="35.302794">
+        <time>2026-05-11T12:04:05Z</time>
+        <speed>8.7</speed>
+        <ele>260.1</ele>
+      </trkpt>
+      <trkpt lat="32.914838" lon="35.302711">
+        <time>2026-05-11T12:04:06Z</time>
+        <speed>8.8</speed>
+        <ele>260.1</ele>
+      </trkpt>
+      <trkpt lat="32.914780" lon="35.302628">
+        <time>2026-05-11T12:04:07Z</time>
+        <speed>8.9</speed>
+        <ele>260.1</ele>
+      </trkpt>
+      <trkpt lat="32.914723" lon="35.302546">
+        <time>2026-05-11T12:04:08Z</time>
+        <speed>9.0</speed>
+        <ele>260.2</ele>
+      </trkpt>
+      <trkpt lat="32.914666" lon="35.302463">
+        <time>2026-05-11T12:04:09Z</time>
+        <speed>9.1</speed>
+        <ele>260.2</ele>
+      </trkpt>
+      <trkpt lat="32.914609" lon="35.302381">
+        <time>2026-05-11T12:04:10Z</time>
+        <speed>9.2</speed>
+        <ele>260.2</ele>
+      </trkpt>
+      <trkpt lat="32.914551" lon="35.302298">
+        <time>2026-05-11T12:04:11Z</time>
+        <speed>9.4</speed>
+        <ele>260.2</ele>
+      </trkpt>
+      <trkpt lat="32.914494" lon="35.302215">
+        <time>2026-05-11T12:04:12Z</time>
+        <speed>9.5</speed>
+        <ele>260.2</ele>
+      </trkpt>
+      <trkpt lat="32.914437" lon="35.302133">
+        <time>2026-05-11T12:04:13Z</time>
+        <speed>9.7</speed>
+        <ele>260.3</ele>
+      </trkpt>
+      <trkpt lat="32.914380" lon="35.302050">
+        <time>2026-05-11T12:04:14Z</time>
+        <speed>9.8</speed>
+        <ele>260.3</ele>
+      </trkpt>
+      <trkpt lat="32.914322" lon="35.301968">
+        <time>2026-05-11T12:04:15Z</time>
+        <speed>10.0</speed>
+        <ele>260.3</ele>
+      </trkpt>
+      <trkpt lat="32.914265" lon="35.301885">
+        <time>2026-05-11T12:04:16Z</time>
+        <speed>10.2</speed>
+        <ele>260.3</ele>
+      </trkpt>
+      <trkpt lat="32.914208" lon="35.301802">
+        <time>2026-05-11T12:04:17Z</time>
+        <speed>10.3</speed>
+        <ele>260.3</ele>
+      </trkpt>
+      <trkpt lat="32.914151" lon="35.301720">
+        <time>2026-05-11T12:04:18Z</time>
+        <speed>10.5</speed>
+        <ele>260.4</ele>
+      </trkpt>
+      <trkpt lat="32.914093" lon="35.301637">
+        <time>2026-05-11T12:04:19Z</time>
+        <speed>10.6</speed>
+        <ele>260.4</ele>
+      </trkpt>
+      <trkpt lat="32.914036" lon="35.301555">
+        <time>2026-05-11T12:04:20Z</time>
+        <speed>10.7</speed>
+        <ele>260.4</ele>
+      </trkpt>
+      <trkpt lat="32.913979" lon="35.301472">
+        <time>2026-05-11T12:04:21Z</time>
+        <speed>10.9</speed>
+        <ele>260.4</ele>
+      </trkpt>
+      <trkpt lat="32.913922" lon="35.301389">
+        <time>2026-05-11T12:04:22Z</time>
+        <speed>11.0</speed>
+        <ele>260.4</ele>
+      </trkpt>
+      <trkpt lat="32.913864" lon="35.301307">
+        <time>2026-05-11T12:04:23Z</time>
+        <speed>11.1</speed>
+        <ele>260.5</ele>
+      </trkpt>
+      <trkpt lat="32.913807" lon="35.301224">
+        <time>2026-05-11T12:04:24Z</time>
+        <speed>11.2</speed>
+        <ele>260.5</ele>
+      </trkpt>
+      <trkpt lat="32.913750" lon="35.301141">
+        <time>2026-05-11T12:04:25Z</time>
+        <speed>11.3</speed>
+        <ele>260.5</ele>
+      </trkpt>
+      <trkpt lat="32.913693" lon="35.301059">
+        <time>2026-05-11T12:04:26Z</time>
+        <speed>11.4</speed>
+        <ele>260.5</ele>
+      </trkpt>
+      <trkpt lat="32.913635" lon="35.300976">
+        <time>2026-05-11T12:04:27Z</time>
+        <speed>11.4</speed>
+        <ele>260.5</ele>
+      </trkpt>
+      <trkpt lat="32.913578" lon="35.300894">
+        <time>2026-05-11T12:04:28Z</time>
+        <speed>11.5</speed>
+        <ele>260.6</ele>
+      </trkpt>
+      <trkpt lat="32.913521" lon="35.300811">
+        <time>2026-05-11T12:04:29Z</time>
+        <speed>11.5</speed>
+        <ele>260.6</ele>
+      </trkpt>
+      <trkpt lat="32.913464" lon="35.300728">
+        <time>2026-05-11T12:04:30Z</time>
+        <speed>11.5</speed>
+        <ele>260.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

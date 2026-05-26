@@ -1,0 +1,156 @@
+/* ===================================================================
+   RoadSenseAI — Base Design System
+   Aligned to reference roadsense-dashboard styles.css + styles-dark.css
+   =================================================================== */
+
+/* --- Reset --- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Light Theme Variables (from reference styles.css :root) --- */
+:root {
+  /* Reference palette */
+  --bg-color: #f5f6fa;
+  --card-bg: #ffffff;
+  --text-main: #191b2b;
+  --text-muted: #8e95ad;
+  --primary: #4b6aed;
+  --primary-hover: #3d59c9;
+  --border-color: #eaecf1;
+  --resolved-bg: #e6f5ea;
+  --resolved-text: #39a66d;
+  --pending-bg: #fdf3e1;
+  --pending-text: #e69d3c;
+  --tag-bg: #f0effa;
+  --tag-text: #635e95;
+  --danger: #e05252;
+
+  /* Backward-compat aliases */
+  --surface: var(--card-bg);
+  --sidebar-width: 300px;
+  --topbar-height: auto;
+
+  /* Blue / Indigo aliases (pointing to reference primary) */
+  --blue-500: #4b6aed;
+  --blue-600: #4b6aed;
+  --blue-700: #3d59c9;
+  --indigo-700: #3d59c9;
+
+  /* Slate scale mapped to reference grays */
+  --slate-50: #f5f6fa;
+  --slate-100: #eaecf1;
+  --slate-200: #eaecf1;
+  --slate-300: #d1d5e5;
+  --slate-400: #8e95ad;
+  --slate-500: #6a6f87;
+  --slate-600: #5a607f;
+  --slate-700: #3a3f56;
+  --slate-800: #191b2b;
+  --slate-900: #0f1117;
+
+  /* Semantic status colors */
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --info: var(--blue-500);
+
+  /* Page background (kept for backward compat) */
+  --page-bg: radial-gradient(circle at top left, #ebf0fc 0%, #f3f5f9 40%, #f6f7fb 100%);
+
+  /* Text light alias */
+  --text-light: var(--slate-400);
+
+  /* Stat Card Pastels */
+  --stat-blue-bg: #eff6ff;
+  --stat-blue-icon: #3b82f6;
+  --stat-amber-bg: #fff8eb;
+  --stat-amber-icon: #f97316;
+  --stat-purple-bg: #f5f3ff;
+  --stat-purple-icon: #8b5cf6;
+  --stat-green-bg: #ecfdf5;
+  --stat-green-icon: #10b981;
+}
+
+/* --- Dark Theme Variables (from reference styles-dark.css :root) --- */
+[data-theme="dark"] {
+  --bg-color: #0f1117;
+  --card-bg: #1a1d2b;
+  --text-main: #e4e7f1;
+  --text-muted: #7a82a0;
+  --primary: #5b7cf7;
+  --primary-hover: #4a68e0;
+  --border-color: #2e3348;
+  --resolved-bg: #132a1e;
+  --resolved-text: #4eca7a;
+  --pending-bg: #2a2011;
+  --pending-text: #f0b44a;
+  --tag-bg: #1e1d33;
+  --tag-text: #a9a2d4;
+  --danger: #e05252;
+
+  --surface: var(--card-bg);
+
+  --blue-500: #5b7cf7;
+  --blue-600: #5b7cf7;
+  --blue-700: #4a68e0;
+  --indigo-700: #4a68e0;
+
+  --slate-50: #1a1d2b;
+  --slate-100: #222639;
+  --slate-200: #2e3348;
+  --slate-300: #3e4565;
+  --slate-400: #7a82a0;
+  --slate-500: #7a82a0;
+  --slate-600: #aab0c6;
+  --slate-700: #c8cde0;
+  --slate-800: #e4e7f1;
+  --slate-900: #f0f2f8;
+
+  --success: #4eca7a;
+  --warning: #f0b44a;
+  --info: var(--blue-500);
+
+  --page-bg: radial-gradient(circle at top left, #151825 0%, #0f1117 40%, #0c0e14 100%);
+
+  --text-light: var(--slate-400);
+
+  --stat-blue-bg: #162033;
+  --stat-blue-icon: #5b7cf7;
+  --stat-amber-bg: #2a2011;
+  --stat-amber-icon: #f0b44a;
+  --stat-purple-bg: #1e1d33;
+  --stat-purple-icon: #a9a2d4;
+  --stat-green-bg: #132a1e;
+  --stat-green-icon: #4eca7a;
+}
+
+/* --- Body (from reference styles.css) --- */
+body {
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at top left, #ebf0fc 0%, #f3f5f9 40%, #f6f7fb 100%);
+  color: var(--text-main);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Dark body background (from reference styles-dark.css) */
+[data-theme="dark"] body {
+  background: radial-gradient(circle at top left, #151825 0%, #0f1117 40%, #0c0e14 100%);
+}
+
+/* --- Links --- */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
