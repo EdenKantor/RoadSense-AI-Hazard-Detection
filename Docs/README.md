@@ -8,8 +8,8 @@ The documentation is organized by project phase:
 
 The following files are part of **Phase B**:
 
-* 📘 **Project Book** — [Download RoadSenseAI_Phase_B_Book.docx](./RoadSenseAI_Phase_B_Book.docx?raw=1)
-   Includes appendices with the User Guide and Maintainer Guide.
+* 📘 **Project Book** — [Download RoadSenseAI_Phase_B_Book.docx](./RoadSenseAI_Phase_B_Book.docx?raw=1)  
+  Includes appendices with the **User Guide** and **Maintainer Guide**.
 * 📄 **Project Poster** — [Download RoadSenseAI_Poster_Phase_B.pdf](./RoadSenseAI_Poster_Phase_B.pdf?raw=1)
 
 ## 🎬 Demo Video – Phase B
