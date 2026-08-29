@@ -8,9 +8,10 @@ The documentation is organized by project phase:
 
 The following files are part of **Phase B**:
 
-* 📘 **Project Book** — [Download RoadSenseAI_Phase_B_Book.docx](./RoadSenseAI_Phase_B_Book.docx?raw=1)  
+* 📘 **Project Book** — [Download RoadSenseAI_Phase_B_Book.docx](https://github.com/EdenKantor/RoadSense-AI-Hazard-Detection/raw/refs/heads/main/Docs/RoadSenseAI_Phase_B_Book.docx)
   Includes appendices with the **User Guide** and **Maintainer Guide**.
-* 📄 **Project Poster** — [Download RoadSenseAI_Poster_Phase_B.pdf](./RoadSenseAI_Poster_Phase_B.pdf?raw=1)
+
+* 📄 **Project Poster** — [Download RoadSenseAI_Poster_Phase_B.pdf](https://github.com/EdenKantor/RoadSense-AI-Hazard-Detection/raw/refs/heads/main/Docs/RoadSenseAI_Poster_Phase_B.pdf)
 
 ## 🎬 Demo Video – Phase B
 
@@ -18,16 +19,7 @@ The following demo video is part of **Phase B** and presents the final RoadSense
 
 [**▶ Watch RoadSenseAI – Collaborative Pothole Detection and Mapping**](https://www.youtube.com/watch?v=GtwI6-8NaIo)
 
-The demo presents the main RoadSenseAI workflow, including:
-
-* Citizen pothole reporting
-* Driving video and GPS upload
-* AI-based pothole detection
-* Geospatial pothole mapping
-* Admin review
-* Team management
-* Team leader assignment
-* Repair progress tracking
+The demo presents the complete RoadSenseAI workflow, from citizen reporting and driving video/GPS upload through AI-based pothole detection and geospatial mapping, to admin review, team assignment, and repair progress tracking.
 
 ---
 
@@ -35,5 +27,6 @@ The demo presents the main RoadSenseAI workflow, including:
 
 The following files are part of **Phase A**:
 
-* 📘 **Project Book** — [Download RoadSenseAI_Phase_A_Book.docx](./RoadSenseAI_Phase_A_Book.docx?raw=1)
-* 📊 **Project Presentation** — [Download RoadSenseAI_Presentation_Phase_A.pptx](./RoadSenseAI_Presentation_Phase_A.pptx?raw=1)
+* 📘 **Project Book** — [Download RoadSenseAI_Phase_A_Book.docx](https://github.com/EdenKantor/RoadSense-AI-Hazard-Detection/raw/refs/heads/main/Docs/RoadSenseAI_Phase_A_Book.docx)
+
+* 📊 **Project Presentation** — [Download RoadSenseAI_Presentation_Phase_A.pptx](https://github.com/EdenKantor/RoadSense-AI-Hazard-Detection/raw/refs/heads/main/Docs/RoadSenseAI_Presentation_Phase_A.pptx)
