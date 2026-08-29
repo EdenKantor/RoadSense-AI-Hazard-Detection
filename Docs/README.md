@@ -9,7 +9,7 @@ The documentation is organized by project phase:
 The following files are part of **Phase B**:
 
 * 📘 **Project Book** — [Download RoadSenseAI_Phase_B_Book.docx](https://github.com/EdenKantor/RoadSense-AI-Hazard-Detection/raw/refs/heads/main/Docs/RoadSenseAI_Phase_B_Book.docx)
-  Includes appendices with the **User Guide** and **Maintainer Guide**.
+   Includes appendices with the **User Guide** and **Maintainer Guide**.
 
 * 📄 **Project Poster** — [Download RoadSenseAI_Poster_Phase_B.pdf](https://github.com/EdenKantor/RoadSense-AI-Hazard-Detection/raw/refs/heads/main/Docs/RoadSenseAI_Poster_Phase_B.pdf)
 
