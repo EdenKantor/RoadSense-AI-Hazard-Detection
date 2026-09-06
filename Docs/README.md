@@ -12,6 +12,7 @@ The following files are part of **Phase B**:
    Includes appendices with the **User Guide** and **Maintainer Guide**.
 
 * 📄 **Project Poster** — [Download RoadSenseAI_Poster_Phase_B.pdf](https://github.com/EdenKantor/RoadSense-AI-Hazard-Detection/raw/refs/heads/main/Docs/RoadSenseAI_Poster_Phase_B.pdf)
+* 📊 **Project Presentation** — [Download RoadSenseAI_Presentation_Phase_B.pptx](https://github.com/EdenKantor/RoadSense-AI-Hazard-Detection/raw/refs/heads/main/Docs/RoadSenseAI_Presentation_Phase_B.pptx)
 
 ## 🎬 Demo Video – Phase B
 
